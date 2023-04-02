@@ -1,0 +1,39 @@
+<!--
+ * @Author: 王晓婷 wangxiaoting@4paradigm.com
+ * @Date: 2023-04-02 18:06:52
+ * @LastEditors: 王晓婷 wangxiaoting@4paradigm.com
+ * @LastEditTime: 2023-04-02 18:16:27
+-->
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>namespace</title>
+    <style>
+      @namespace "http://www.w3.org/1999/xhtml";
+      @namespace svg "http://www.w3.org/2000/svg";
+      svg|a {
+        color: blue;
+        fill: currentColor;
+      }
+      a {
+        color: aqua;
+      }
+    </style>
+  </head>
+  <body>
+    <p>这是普通a <a>普通a</a></p>
+    <p>
+      这是svga
+      <svg>
+        <a xlink:href>
+          <path
+            d="M300.8 512c0-16 6.4-32 19.2-44.8L681.6 105.6l44.8 44.8L364.8 512l361.6 361.6-44.8 44.8L320 556.8c-12.8-12.8-19.2-28.8-19.2-44.8z"
+          />
+        </a>
+      </svg>
+    </p>
+  </body>
+</html>

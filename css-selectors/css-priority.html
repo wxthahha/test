@@ -1,0 +1,38 @@
+<!--
+ * @Author: 王晓婷 wangxiaoting@4paradigm.com
+ * @Date: 2023-04-02 18:41:10
+ * @LastEditors: 王晓婷 wangxiaoting@4paradigm.com
+ * @LastEditTime: 2023-04-02 22:56:49
+-->
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width; initial-scale=1.0;" />
+    <style>
+      /* 1级 */
+      div {
+        background-color: bisque;
+        color: blueviolet;
+      }
+      /* 2级 */
+      .two-level {
+       color: aquamarine;
+      }
+      .two-level:hover {
+        color: blue;
+      }
+      [class="two-level"] {
+        color: red;
+      }
+      /* 3级 */
+      #three-level {
+        color: #000;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="two-level" id="three-level">css priority</div>
+  </body>
+</html>

@@ -1,8 +1,8 @@
 <!--
- * @Author: wangxiaoting wangxiaoting@4paradigm.com
+ * @Author: 王晓婷 wangxiaoting@4paradigm.com
  * @Date: 2023-03-26 14:55:02
- * @LastEditors: wangxiaoting wangxiaoting@4paradigm.com
- * @LastEditTime: 2023-03-28 13:38:02
+ * @LastEditors: 王晓婷 wangxiaoting@4paradigm.com
+ * @LastEditTime: 2023-04-02 17:57:10
  * @Description: shadowDOM
 -->
 <!DOCTYPE html>
@@ -14,12 +14,17 @@
     <title>shadow DOM</title>
   </head>
   <body>
+    <p>我是一个普通的&lt;p&gt;元素，我的背景色是？</p>
     <div id="root"></div>
   </body>
   <script>
     const rootElement = document.querySelector("#root");
-    const shadow = rootElement.attachShadow({
+    const shadowRoot = rootElement.attachShadow({
       mode: "open",
     });
+    shadowRoot.innerHTML = "<p>我是一个普通的&lt;p&gt;元素，我的背景色是？</p>";
+    shadowRoot.innerHTML +=
+      "<style>p{background-color: #333; color: #fff;}</style>";
+    shadowRoot;
   </script>
 </html>
