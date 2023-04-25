@@ -45,3 +45,16 @@
 当一个函数没有返回值时，应该显式声明为 void，更好的说明当前函数没有进行返回操作。
 
 ## 可选参数 与 rest 参数
+
+可选参数：问号?
+需要注意的是，**可选参数一定放在必选参数之后**。
+
+rest 的标注使用数组或者元组。
+`ts
+  function foo(name: string, ...rest: any[]): void { }
+  function foo1(name: string, ...rest: [number, boolean]): void {}
+`
+
+## 重载
+在某些复杂的情况下，返回值类型与某些入参相关联，仅通过返回值的联合类型无法准确推断内部返回类型。
+此时，要想实现与入参关联的返回值类型时，可以使用ts实现的 **函数重载签名（Overload Signature）**
