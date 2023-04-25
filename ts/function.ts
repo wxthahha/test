@@ -2,7 +2,7 @@
  * @Author: wangxiaoting wangxiaoting@4paradigm.com
  * @Date: 2023-04-24 13:18:07
  * @LastEditors: wangxiaoting wangxiaoting@4paradigm.com
- * @LastEditTime: 2023-04-25 22:12:42
+ * @LastEditTime: 2023-04-25 23:08:42
  * @Description: ts函数和class
  */
 function foo(name: string): number {
@@ -58,3 +58,6 @@ function func(foo: number, bar?: boolean): string | number {
     return 111;
   }
 }
+
+// 异步函数
+async function asyncFunc(): Promise<void> {}
