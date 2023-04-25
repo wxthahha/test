@@ -8,6 +8,7 @@
 
 - 函数声明(Function Declaration)：function foo() {}
 - 函数表达式(Function Expression): let foo = function () {}
+
 ```
   //* 方式1
   const foo = (name: string): number => {
@@ -18,6 +19,7 @@
     return name.length;
   }
 ```
+
 - 对于方式 2，可读性极差。
 
 ### 对于函数声明，要么直接在函数中进行进行参数和返回值的类型声明，要么使用类型别名将函数类型签名抽离出来。
@@ -28,6 +30,7 @@
     return name.length;
   }
 ```
+
 如果仅仅是为了描述函数的类型结构，也可以用 interface 来进行函数声明。
 
 ### 此时的 interface 被称为 Callable Interface。
@@ -50,6 +53,7 @@
 - 需要注意的是，**可选参数一定放在必选参数之后**。
 
 - rest 的标注使用数组或者元组。
+
 ```
   function foo(name: string, ...rest: any[]): void { }
   function foo1(name: string, ...rest: [number, boolean]): void {}
@@ -63,4 +67,4 @@
 
 - ts 的重载只是函数类型声明的重载，而非具体实现上的重载，更像是伪重载。而其他语言的函数重载实现了多个入参不同的同名函数才是真正意义上的重载。
 
-## 异步函数、Generator函数等的类型签名
+## 异步函数、Generator 函数等的类型签名
