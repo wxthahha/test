@@ -8,7 +8,7 @@
 
 - 函数声明(Function Declaration)：function foo() {}
 - 函数表达式(Function Expression): let foo = function () {}
-(```)
+```
   //* 方式1
   const foo = (name: string): number => {
     return name.length;
@@ -17,26 +17,26 @@
   const bar: (name: string) => number = (name) => {
     return name.length;
   }
-(```)
+```
 - 对于方式 2，可读性极差。
 
 ### 对于函数声明，要么直接在函数中进行进行参数和返回值的类型声明，要么使用类型别名将函数类型签名抽离出来。
 
-(```)
+```
   type BarType = (name: string) => number;
   const bar: BarType = (name) => {
     return name.length;
   }
-(```)
+```
 如果仅仅是为了描述函数的类型结构，也可以用 interface 来进行函数声明。
 
 ### 此时的 interface 被称为 Callable Interface。
 
-(```)
+```
   interface BarFuncStructure {
     (name: string): number
   }
-(```)
+```
 
 ### interface 本质上就是用来描述一种类型结构的，而函数类型本质上也是一种结构固定的类型而已。
 
@@ -50,10 +50,10 @@
 - 需要注意的是，**可选参数一定放在必选参数之后**。
 
 - rest 的标注使用数组或者元组。
-(```)
+```
   function foo(name: string, ...rest: any[]): void { }
   function foo1(name: string, ...rest: [number, boolean]): void {}
-(```)
+```
 
 ## 重载
 
