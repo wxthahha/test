@@ -14,7 +14,7 @@ const obj: {
   b: 2,
 };
 
-type a = {
+type aaaa = {
   code: 0 | 30000;
   message: "success" | "fail" | string;
   data: any;

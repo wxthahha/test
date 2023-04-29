@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CSS Selector</title>
+    <style>
+      h4 + p {
+        color: skyblue;
+      }
+      /* 匹配失败 */
+      .cs-cg1 .cs-li:not(:first-child) {
+        color: skyblue;
+      }
+      /* 匹配成功 */
+      .cs-cg2 .cs-li + .cs-li {
+        color: skyblue;
+      }
+      .ancestor {
+        background-color: dodgerblue;
+      }
+      .brother {
+        background-color: skyblue;
+      }
+      /* col.selected || td {
+        background-color: skyblue;
+      } */
+      col.selected {
+        background-color: skyblue;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="myId">
+      <div class="lonely"></div>
+      <div class="outer">
+        <div class="inner"></div>
+      </div>
+    </div>
+    <h4></h4>
+    文字会被忽略吗？
+    <!-- 哈哈哈哈哈注释节点 -->
+    <p>文字颜色？？？</p>
+    <div class="cs-cg1">
+      <h4>:first-child选择器</h4>
+      <li class="cs-li">111111-1</li>
+      <li class="cs-li">222222-2</li>
+      <li class="cs-li">333333-3</li>
+    </div>
+    <div class="cs-cg2">
+      <h4>相邻后代选择符实现:first-child</h4>
+      <li class="cs-li">111111-1</li>
+      <li class="cs-li">222222-2</li>
+      <li class="cs-li">333333-3</li>
+    </div>
+    <table border="1" width="600">
+      <colgroup>
+        <col />
+        <col span="2" class="ancestor" />
+        <col span="2" class="brother" />
+      </colgroup>
+      <tr>
+        <th></th>
+        <td>子选择符</td>
+        <td>后代选择符</td>
+        <td>相邻兄弟选择符</td>
+        <td>兄弟选择符</td>
+      </tr>
+      <tr>
+        <th>示例</th>
+        <td>.foo .bar {}</td>
+        <td>.foo > .bar {}</td>
+        <td>.foo + .bar {}</td>
+        <td>.foo ~ .bar {}</td>
+      </tr>
+    </table>
+    <table border="1" width="600">
+      <colgroup>
+        <col span="2">
+        <col class="selected">
+      </colgroup>
+      <tbody>
+        <tr>
+          <td>A</td>
+          <td>B</td>
+          <td>C</td>
+        </tr>
+        <tr>
+          <td colspan="2">E</td>
+          <td>F</td>
+        </tr>
+        <tr>
+          <td>G</td>
+          <td colspan="2">H</td>
+        </tr>
+      </tbody>
+    </table>
+  </body>
+  <script>
+    const nodeList = document
+      .querySelector("#myId")
+      .querySelectorAll("div div");
+    console.log(nodeList);
+    const nodeListScope = document
+      .querySelector("#myId")
+      .querySelectorAll(":scope div div");
+    console.log(nodeListScope);
+  </script>
+</html>
