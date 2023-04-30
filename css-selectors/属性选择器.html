@@ -12,9 +12,26 @@
       [id="my-id"] {
         color: green;
       }
+      [disabled] {
+        width: 100px;
+        height: 100px;
+        cursor: no-drop;
+      }
     </style>
   </head>
   <body>
     <div id="my-id">id选择器</div>
+    <input
+      type="checkbox"
+      id="checkbox"
+      disabled
+      checked
+      placeholder="请输入"
+    />
   </body>
+  <script>
+    const checkbox = document.querySelector("#checkbox");
+    checkbox.checked = false;
+    checkbox.disabled = false;
+  </script>
 </html>
