@@ -17,3 +17,5 @@ public、private、protected
 #### 实现类 implements
 
 #### interface 也可以描述类
+
+### 私有构造函数
