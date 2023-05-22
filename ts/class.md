@@ -11,3 +11,5 @@ public、private、protected
 抽象类无法声明静态的抽象成员。
 
 ## 实现类 implements
+
+## interface 也可以描述类
