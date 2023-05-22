@@ -6,6 +6,10 @@
 
 public、private、protected
 
+## 只读成员 readonly
+
+## 静态成员 static
+
 ## 抽象类 abstract
 
 抽象类无法声明静态的抽象成员。
