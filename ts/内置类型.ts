@@ -30,3 +30,5 @@ let c: unknown = 1;
 // let d: any = c; // ok
 // let d: unknown = c; // ok
 // let d: number = c; //! error
+
+//* 类型断言 as
