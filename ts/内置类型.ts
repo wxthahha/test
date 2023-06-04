@@ -32,3 +32,19 @@ let c: unknown = 1;
 // let d: number = c; //! error
 
 //* 类型断言 as
+//* 类型断言的正确使用方式是：在ts类型分析不正确或不符合预期时，将其断言为此处的正确类型
+interface IFoo {
+  name: string;
+}
+declare const obj1: {
+  _foo: IFoo;
+};
+const { _foo } = obj1;
+
+//* 双重断言
+const str22: string = "1111";
+// (str22 as { handler: () => {} }).handler();
+(str22 as any as { handler: () => {} }).handler();
+(<{ handler: () => {} }>(<any>str)).handler();
+
+//* 非空断言
