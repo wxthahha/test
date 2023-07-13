@@ -1,3 +1,5 @@
+import isSymbol from "./isSymbol";
+
 const NAN = 0 / 0;
 
 const baseToNumber = (value) => {
