@@ -1,13 +1,5 @@
-/*
- * @Author: wangxiaoting wangxiaoting@4paradigm.com
- * @Date: 2023-07-13 16:31:59
- * @LastEditors: wangxiaoting wangxiaoting@4paradigm.com
- * @LastEditTime: 2023-07-13 17:10:42
- * @Description: createMathOperator
- */
-
-import baseToNumber from "./baseToNumber";
 import baseToString from "./baseToString";
+import baseToNumber from "./baseToNumber";
 
 const createMathOperator = (operator, defaultValue) => {
   return (value, other) => {

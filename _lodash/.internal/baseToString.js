@@ -1,13 +1,6 @@
-/*
- * @Author: wangxiaoting wangxiaoting@4paradigm.com
- * @Date: 2023-07-13 17:08:36
- * @LastEditors: wangxiaoting wangxiaoting@4paradigm.com
- * @LastEditTime: 2023-07-13 22:21:24
- */
-
 import isSymbol from "./isSymbol";
 
-const symbolToSting = Symbol.prototype.toString;
+const symbolToString = Symbol.prototype.toString;
 
 const INFINITY = 1 / 0;
 
@@ -19,7 +12,7 @@ const baseToString = (value) => {
     return value.map(baseToString);
   }
   if (isSymbol(value)) {
-    return symbolToSting ? symbolToSting.call(value) : "";
+    return symbolToString ? symbolToString.call(value) : "";
   }
   const result = `${value}`;
   return result === "0" && 1 / value === -INFINITY ? "-0" : result;
