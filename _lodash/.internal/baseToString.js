@@ -2,7 +2,7 @@
  * @Author: wangxiaoting wangxiaoting@4paradigm.com
  * @Date: 2023-07-13 17:08:36
  * @LastEditors: wangxiaoting wangxiaoting@4paradigm.com
- * @LastEditTime: 2023-07-13 21:31:28
+ * @LastEditTime: 2023-07-13 22:21:24
  */
 
 import isSymbol from "./isSymbol";
@@ -19,7 +19,7 @@ const baseToString = (value) => {
     return value.map(baseToString);
   }
   if (isSymbol(value)) {
-    return symbolToSting ? symbolToSting(value) : "";
+    return symbolToSting ? symbolToSting.call(value) : "";
   }
   const result = `${value}`;
   return result === "0" && 1 / value === -INFINITY ? "-0" : result;
