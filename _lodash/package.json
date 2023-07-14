@@ -1,5 +1,5 @@
 {
-  "name": "lodash",
+  "name": "lodash-mock",
   "version": "5.0.0",
   "license": "MIT",
   "private": true,
@@ -10,14 +10,15 @@
   "sideEffects": false,
   "scripts": {
     "style": "eslint *.js .internal/**/*.js",
-    "test": "mocha -r esm test/add.test.js",
+    "test": "mocha -r esm test/after.test.js",
     "validate": "npm run style && npm run test"
   },
   "devDependencies": {
-    "mocha": "^5.2.0",
+    "assert": "^2.0.0",
     "eslint": "^7.16.0",
     "eslint-plugin-import": "^2.22.1",
     "esm": "^3.2.25",
-    "assert": "^2.0.0"
+    "lodash": "^4.17.21",
+    "mocha": "^5.2.0"
   }
 }
