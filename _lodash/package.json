@@ -4,6 +4,7 @@
   "license": "MIT",
   "private": true,
   "main": "lodash.js",
+  "type": "module",
   "engines": {
     "node": ">=4.0.0"
   },
