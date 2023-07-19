@@ -4,16 +4,16 @@
   "license": "MIT",
   "private": true,
   "main": "lodash.js",
-  "type": "module",
   "engines": {
     "node": ">=4.0.0"
   },
   "sideEffects": false,
   "scripts": {
     "style": "eslint *.js .internal/**/*.js",
-    "test": "mocha -r esm test/after.test.js",
+    "test": "mocha -r esm test/*.test.js",
     "validate": "npm run style && npm run test"
   },
+  "type": "module",
   "devDependencies": {
     "assert": "^2.0.0",
     "eslint": "^7.16.0",
