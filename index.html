@@ -3,21 +3,37 @@
   <head>
     <meta charset="utf-8" />
     <title>shetou</title>
+    <style>
+      .parent {
+        box-sizing: content-box;
+        width: 200px;
+        padding: 10px;
+        border: 10px solid rgba(0, 0, 0, 0.1);
+        background-color: bisque;
+      }
+      .children {
+        width: 10%;
+        background-color: aquamarine;
+      }
+    </style>
   </head>
   <body>
     <p>aaaaa</p>
+    <div class="parent">
+      <div class="children">aaa</div>
+    </div>
   </body>
   <script>
-    console.log(a); // undefined
-    if (true) {
-      console.log(a); // a() {}
-      a = 1;
-      console.log(a); // 1
-      function a() {}
-      console.log(a); // 1
-      a = 5;
-      console.log(a); // 5
-    }
-    console.log(a); // 5
+    // console.log(a); // undefined
+    // if (true) {
+    //   console.log(a); // a() {}
+    //   a = 1;
+    //   console.log(a); // 1
+    //   function a() {}
+    //   console.log(a); // 1
+    //   a = 5;
+    //   console.log(a); // 5
+    // }
+    // console.log(a); // 5
   </script>
 </html>
