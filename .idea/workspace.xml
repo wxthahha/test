@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="6dd9b18f-b7f5-490b-a22c-feea7413f7a9" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_lodash/.internal/baseToNumber.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_lodash/.internal/baseToString.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_lodash/.internal/createMathOperator.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_lodash/.internal/getTag.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_lodash/.internal/isSymbol.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_lodash/add.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_lodash/after.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_lodash/isObjectLike.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_lodash/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_lodash/test/add.test.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_lodash/test/after.test.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/css-luma.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/css-nesting.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/css-selectors/css-priority.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/css-selectors/css-selector.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/css-selectors/css-selector.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/css-selectors/namespace.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/css-selectors/shadowDOM.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/css-selectors/元素选择器.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/css-selectors/元素选择器.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/css-selectors/属性选择器.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/css-selectors/属性选择器.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/css-selectors/用户行为伪类.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/css-selectors/用户行为伪类.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/high-12-js-funcs/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/high-12-js-funcs/debounce.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/high-12-js-funcs/throttle.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jsonStringify.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/retry.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ts/SOLID原则.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ts/class.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ts/class.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ts/enum.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ts/enum.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ts/function.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ts/function.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ts/hello.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ts/hello.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ts/literal-types.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ts/tsconfig.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ts/内置类型.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/路白/promise/all.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/路白/ts/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/路白/ts/index.ts" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 0
+}</component>
+  <component name="ProjectId" id="2X7VMrubFcYV2cAn5KBNmb14VEY" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "git-widget-placeholder": "design-pattern",
+    "last_opened_file_path": "/Users/wangxiaoting/Desktop/my/test",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs.mocha.mocha_node_package_dir": "/Users/wangxiaoting/Desktop/my/test/regexp/node_modules/mocha",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "IntelliLang.Configuration",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RunManager">
+    <configuration name="匹配成对标签" type="mocha-javascript-test-runner" temporary="true" nameIsGenerated="true">
+      <node-interpreter>project</node-interpreter>
+      <node-options />
+      <mocha-package>$PROJECT_DIR$/regexp/node_modules/mocha</mocha-package>
+      <working-directory>$PROJECT_DIR$/regexp</working-directory>
+      <pass-parent-env>true</pass-parent-env>
+      <ui>bdd</ui>
+      <extra-mocha-options />
+      <test-kind>SUITE</test-kind>
+      <test-file>$PROJECT_DIR$/regexp/test/匹配成对标签.test.js</test-file>
+      <test-names>
+        <name value="匹配成对标签" />
+      </test-names>
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Mocha.匹配成对标签" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="6dd9b18f-b7f5-490b-a22c-feea7413f7a9" name="Changes" comment="" />
+      <created>1697980060481</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1697980060481</updated>
+      <workItem from="1697980061653" duration="2034000" />
+      <workItem from="1697985306308" duration="1038000" />
+      <workItem from="1697986348268" duration="141000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>
